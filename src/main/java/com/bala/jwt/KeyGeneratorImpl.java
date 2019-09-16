@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.jwt;
+package com.bala.jwt;
 
-import com.sundar.jwt.utils.KeyGenerator;
+import com.bala.jwt.utils.KeyGenerator;
 import java.security.Key;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
  *
- * @author sundar
- * @since 2017-10-28
- * @modified 2017-10-28
+ * @author bala
  */
 public class KeyGeneratorImpl implements KeyGenerator {
 

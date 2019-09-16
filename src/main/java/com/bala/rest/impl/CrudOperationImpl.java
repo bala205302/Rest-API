@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.rest.impl;
+package com.bala.rest.impl;
 
-import com.sundar.rest.CrudOperation;
-import com.sundar.rest.model.CrudOperationDO;
-import com.sundar.rest.utils.CrudConstants;
-import com.sundar.rest.utils.DataSourceConnection;
+import com.bala.rest.CrudOperation;
+import com.bala.rest.model.CrudOperationDO;
+import com.bala.rest.utils.CrudConstants;
+import com.bala.rest.utils.DataSourceConnection;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
@@ -24,9 +24,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author sundar
- * @since 2017-10-22
- * @modified 2017-10-22
+ * @author bala
  */
 public class CrudOperationImpl implements CrudOperation {
 

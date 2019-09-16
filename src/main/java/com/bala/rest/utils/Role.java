@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.jwt.utils;
-
-import java.security.Key;
+package com.bala.rest.utils;
 
 /**
  *
- * @author sundar
- * @since 2017-10-28
- * @modified 2017-10-28
+ * @author bala
  */
-public interface KeyGenerator {
-
-    Key generateKey();
+public enum Role {
+    ADMIN, USER
 }

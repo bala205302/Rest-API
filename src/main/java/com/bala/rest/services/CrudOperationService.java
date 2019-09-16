@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.rest.services;
+package com.bala.rest.services;
 
-import com.sundar.rest.CrudOperation;
-import com.sundar.rest.impl.CrudOperationImpl;
-import com.sundar.rest.model.CrudOperationDO;
-import com.sundar.rest.utils.EmployeeValidation;
+import com.bala.rest.CrudOperation;
+import com.bala.rest.impl.CrudOperationImpl;
+import com.bala.rest.model.CrudOperationDO;
+import com.bala.rest.utils.EmployeeValidation;
 import java.util.HashMap;
 import java.util.Map;
 import javax.ws.rs.DELETE;
@@ -24,9 +24,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author sundar
- * @since 2017-10-21
- * @modified 2017-10-22
+ * @author bala
  */
 @Path("/crud")
 public class CrudOperationService {

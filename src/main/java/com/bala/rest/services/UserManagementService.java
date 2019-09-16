@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.rest.services;
+package com.bala.rest.services;
 
-import com.sundar.jwt.KeyGeneratorImpl;
-import com.sundar.jwt.utils.KeyGenerator;
-import com.sundar.rest.model.UserDO;
+import com.bala.jwt.KeyGeneratorImpl;
+import com.bala.jwt.utils.KeyGenerator;
+import com.bala.rest.model.UserDO;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import java.security.Key;
@@ -28,9 +28,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author sundar
- * @since 2017-10-28
- * @modified 2017-10-28
+ * @author bala
  */
 @Path("/users")
 public class UserManagementService {
@@ -80,7 +78,7 @@ public class UserManagementService {
     }
 
     private boolean authenticate(String login, String password) throws Exception {
-        if ("sundar".equals(login) && "123&S#@".equals(password)) {
+        if ("bala".equals(login) && "123&S#@".equals(password)) {
             log.info("Valid UserName and Password");
             return true;
         } else {

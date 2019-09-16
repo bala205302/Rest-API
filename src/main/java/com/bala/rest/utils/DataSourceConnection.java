@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.rest.utils;
+package com.bala.rest.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -15,9 +15,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author sundar
- * @since 2017-10-22
- * @modified 2017-10-28
+ * @author bala
  */
 public class DataSourceConnection {
 

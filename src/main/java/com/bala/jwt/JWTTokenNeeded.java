@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.jwt;
+package com.bala.jwt;
 
-import com.sundar.rest.utils.Role;
+import com.bala.rest.utils.Role;
 import static java.lang.annotation.ElementType.METHOD;
 import static java.lang.annotation.ElementType.TYPE;
 import java.lang.annotation.Retention;
@@ -15,9 +15,7 @@ import javax.ws.rs.NameBinding;
 
 /**
  *
- * @author sundar
- * @since 2017-10-28
- * @modified 2017-10-28
+ * @author bala
  */
 @NameBinding
 @Retention(RUNTIME)

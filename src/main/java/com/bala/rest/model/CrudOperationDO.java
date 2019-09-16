@@ -3,13 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.rest.model;
+package com.bala.rest.model;
 
 /**
  *
- * @author sundar
- * @since 2017-10-21
- * @modified 2017-10-22
+ * @author bala
  */
 public class CrudOperationDO {
 

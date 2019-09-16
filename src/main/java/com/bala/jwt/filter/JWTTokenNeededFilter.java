@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.jwt.filter;
+package com.bala.jwt.filter;
 
-import com.sundar.jwt.JWTTokenNeeded;
-import com.sundar.jwt.utils.KeyGenerator;
+import com.bala.jwt.JWTTokenNeeded;
+import com.bala.jwt.utils.KeyGenerator;
 
 import io.jsonwebtoken.Jwts;
 import java.io.IOException;
@@ -24,9 +24,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author sundar
- * @author 2017-10-28
- * @modified 2017-10-28
+ * @author bala
  */
 @Provider
 @JWTTokenNeeded

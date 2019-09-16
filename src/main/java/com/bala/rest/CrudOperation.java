@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.sundar.rest;
+package com.bala.rest;
 
-import com.sundar.rest.model.CrudOperationDO;
+import com.bala.rest.model.CrudOperationDO;
 import java.util.Map;
 
 /**
  *
- * @author sundar
- * @since 2017-10-21
- * @modified 2017-10-21
+ * @author bala
  */
 public interface CrudOperation {
 
